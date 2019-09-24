@@ -1,8 +1,8 @@
-# Single-Player-Rock-Paper-Scissors
+# Single Player Rock Paper Scissors
 ## Description
 Allows user to play the game "Rock Paper Scissors" with the computer. Keeps track of scores and can be played as long as the user desires.
 
-## Languages Used
+## Technologies Used
 This web application was built using HTML, CSS, Javascript, jQuery and Express.js. 
 
 ## What I Learned
