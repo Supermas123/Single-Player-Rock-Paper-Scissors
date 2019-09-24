@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <meta name="author" content="Samuel Mathew">
+    <meta name="description" content="Rock Paper Scisscors">
+    <meta name="keywords" content="Rock Paper Scissors App">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scisscors</h1>
+    </header>
+
+    <div id="main">
+        <div id="scoreBoard">
+            <span id="user">user</span>
+            <span id="scores"><span id="userScore">0</span>:<span id="compScore">0</span></span>
+            <span id="comp">comp</span>
+        </div>
+
+        <div id="message">
+            <p id="para"></p>
+        </div>
+
+        <div id="image-container">
+            <div id="images">
+                <div class="image" alt="rock" id="r">
+                    <img src="/rock.jpeg">
+                </div>
+                <div class="image" alt="paper" id="p">
+                    <img src="/paper-icon-grey.png">
+                </div>
+                <div class="image" alt="scissors" id="s">
+                    <img src="/scisscors.jpeg">
+                </div>
+            </div>
+        </div>
+
+        <p id="taunt">Make your move</p>
+    </div>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/app.js"></script>
+</body>
+</html>
